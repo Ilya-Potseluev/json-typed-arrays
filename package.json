@@ -1,0 +1,22 @@
+{
+	"name": "json-typed-arrays",
+	"version": "1.0.0",
+	"description": "Serializes and deserializes a typed array using base64 in JSON",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "jest",
+		"build": "tsc"
+	},
+	"author": "Ilya Posteluev",
+	"license": "ISC",
+	"keywords": [
+		"json",
+		"typedarray",
+		"array",
+		"base64"
+	],
+	"devDependencies": {
+		"@types/jest": "^29.4.0",
+		"jest": "^29.4.1"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2016",
+		"strict": true,
+		"declaration": true,
+		"moduleResolution": "node",
+		"outDir": "dist"
+	},
+	"include": ["index.ts"]
+}

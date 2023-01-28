@@ -74,7 +74,7 @@ export function createParser(
 					if (typeof replacer === 'function')
 						value = replacer.call(this, key, value);
 
-					if (TypedArrays.includes(value.constructor.name)) {
+					if (TypedArrays.includes(value?.constructor.name)) {
 						value =
 							value.constructor.name +
 							':' +

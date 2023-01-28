@@ -9,6 +9,10 @@
 	},
 	"author": "Ilya Posteluev",
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ilya-Potseluev/json-typed-arrays.git"
+	},
 	"keywords": [
 		"json",
 		"typedarray",
